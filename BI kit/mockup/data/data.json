@@ -1,0 +1,50 @@
+{
+  "exchange_rates": [
+    { "base_currency": "USD", "target_currency": "KRW", "rate": 1320.50, "prev_rate": 1315.20, "date": "2026-03-05" },
+    { "base_currency": "EUR", "target_currency": "KRW", "rate": 1435.20, "prev_rate": 1440.80, "date": "2026-03-05" },
+    { "base_currency": "JPY", "target_currency": "KRW", "rate": 8.82,   "prev_rate": 8.79,   "date": "2026-03-05" }
+  ],
+  "predictions": {
+    "USD": {
+      "base_currency": "USD", "target_currency": "KRW",
+      "predicted_rate": 1335.00, "confidence": 72, "forecast_period": 7, "direction": "up"
+    },
+    "EUR": {
+      "base_currency": "EUR", "target_currency": "KRW",
+      "predicted_rate": 1425.00, "confidence": 65, "forecast_period": 7, "direction": "down"
+    },
+    "JPY": {
+      "base_currency": "JPY", "target_currency": "KRW",
+      "predicted_rate": 8.95, "confidence": 58, "forecast_period": 7, "direction": "up"
+    }
+  },
+  "rate_history": {
+    "USD": [
+      { "date": "2026-02-27", "rate": 1308.00 },
+      { "date": "2026-02-28", "rate": 1312.50 },
+      { "date": "2026-03-01", "rate": 1310.00 },
+      { "date": "2026-03-02", "rate": 1315.50 },
+      { "date": "2026-03-03", "rate": 1318.00 },
+      { "date": "2026-03-04", "rate": 1319.80 },
+      { "date": "2026-03-05", "rate": 1320.50 }
+    ],
+    "EUR": [
+      { "date": "2026-02-27", "rate": 1445.00 },
+      { "date": "2026-02-28", "rate": 1442.00 },
+      { "date": "2026-03-01", "rate": 1438.50 },
+      { "date": "2026-03-02", "rate": 1441.00 },
+      { "date": "2026-03-03", "rate": 1439.00 },
+      { "date": "2026-03-04", "rate": 1440.80 },
+      { "date": "2026-03-05", "rate": 1435.20 }
+    ],
+    "JPY": [
+      { "date": "2026-02-27", "rate": 8.75 },
+      { "date": "2026-02-28", "rate": 8.77 },
+      { "date": "2026-03-01", "rate": 8.80 },
+      { "date": "2026-03-02", "rate": 8.78 },
+      { "date": "2026-03-03", "rate": 8.81 },
+      { "date": "2026-03-04", "rate": 8.79 },
+      { "date": "2026-03-05", "rate": 8.82 }
+    ]
+  }
+}
